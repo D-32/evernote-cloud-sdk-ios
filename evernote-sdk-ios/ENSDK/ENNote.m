@@ -101,8 +101,8 @@
     _content = content;
 }
 
-- (void)setNoteContent:(ENNoteContent *)noteContent {
-    [self setContent:noteContent];
+- (void)setNoteContent:(NSString *)noteContent {
+    [self setContent:[ENNoteContent noteContentWithString:noteContent]];
 }
 
 - (void)setTagNames:(NSArray *)tagNames
