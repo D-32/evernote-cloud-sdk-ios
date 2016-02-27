@@ -101,6 +101,10 @@
     _content = content;
 }
 
+- (void)setNoteContent:(ENNoteContent *)noteContent {
+    [self setContent:noteContent];
+}
+
 - (void)setTagNames:(NSArray *)tagNames
 {
     NSMutableArray * tags = [NSMutableArray array];
