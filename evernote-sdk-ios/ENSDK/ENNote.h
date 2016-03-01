@@ -55,6 +55,7 @@ typedef void (^ENNoteGenerateWebArchiveDataCompletionHandler)(NSData * data);
 @property (nonatomic, strong) ENNoteContent * content;
 
 @property (nonatomic, strong) NSString * noteContent;
+@property (nonatomic, strong) NSString * htmlContent;
 
 /**
  *  An array of strings containing tag names to attach to an uploaded note. If a tag name already

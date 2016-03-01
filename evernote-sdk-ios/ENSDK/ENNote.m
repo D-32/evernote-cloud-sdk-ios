@@ -105,6 +105,10 @@
     [self setContent:[ENNoteContent noteContentWithString:noteContent]];
 }
 
+- (void)setHtmlContent:(NSString *)htmlContent {
+    [self setContent:[ENNoteContent noteContentWithSanitizedHTML:htmlContent]];
+}
+
 - (void)setTagNames:(NSArray *)tagNames
 {
     NSMutableArray * tags = [NSMutableArray array];
