@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name = "evernote-cloud-sdk-ios"
+  spec.name = "evernote_cloud_sdk_ios"
   spec.version = "2.0.6"
   spec.summary = "Evernote Cloud SDK for iOS."
   spec.homepage = "https://github.com/evernote/evernote-cloud-sdk-ios"
